@@ -4,16 +4,14 @@
   "description": "this is react app",
   "scripts": {
     "start": "parcel index.html",
-    "build" : "parcel build index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Shadab0097/Namaste-React.git"
   },
-  "keywords": [
-   
-  ],
+  "keywords": [],
   "author": "shadakhan",
   "license": "ISC",
   "bugs": {
@@ -22,14 +20,16 @@
   "homepage": "https://github.com/Shadab0097/Namaste-React#readme",
   "devDependencies": {
     "parcel": "^2.8.3",
-    "process": "^0.11.10"
+    "postcss": "^8.4.24",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.2"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.2"
   },
-  "browserslist":[
-    "Last 2 versions"  
+  "browserslist": [
+    "Last 2 versions"
   ]
 }
-
